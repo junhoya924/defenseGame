@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AAFB9071-EC73-4567-BFD5-06E9D7B2853F}</ProjectGuid>
+    <RootNamespace>FinalProject_windowsProgramming</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\backGround1.bmp" />
+    <None Include="res\FinalProject_windowsProgramming.ico" />
+    <None Include="res\FinalProject_windowsProgramming.rc2" />
+    <None Include="res\grid.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AttackUnit.h" />
+    <ClInclude Include="AttackUnit1.h" />
+    <ClInclude Include="AttackUnit2.h" />
+    <ClInclude Include="AttackUnit3.h" />
+    <ClInclude Include="AttackUnit4.h" />
+    <ClInclude Include="AttackUnit5.h" />
+    <ClInclude Include="AttackUnit6.h" />
+    <ClInclude Include="BossAttackUnit1.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="FinalProject_windowsProgramming.h" />
+    <ClInclude Include="FinalProject_windowsProgrammingDlg.h" />
+    <ClInclude Include="GameOverDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SecondDlg.h" />
+    <ClInclude Include="ShieldUnit.h" />
+    <ClInclude Include="ShieldUnit1.h" />
+    <ClInclude Include="ShieldUnit2.h" />
+    <ClInclude Include="ShieldUnit3.h" />
+    <ClInclude Include="ShieldUnit4.h" />
+    <ClInclude Include="ShieldUnit5.h" />
+    <ClInclude Include="ShieldUnit6.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StructObject.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThirdDlg.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="VictoryDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AttackUnit.cpp" />
+    <ClCompile Include="AttackUnit1.cpp" />
+    <ClCompile Include="AttackUnit2.cpp" />
+    <ClCompile Include="AttackUnit3.cpp" />
+    <ClCompile Include="AttackUnit4.cpp" />
+    <ClCompile Include="AttackUnit5.cpp" />
+    <ClCompile Include="AttackUnit6.cpp" />
+    <ClCompile Include="BossAttackUnit1.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="FinalProject_windowsProgramming.cpp" />
+    <ClCompile Include="FinalProject_windowsProgrammingDlg.cpp" />
+    <ClCompile Include="GameOverDlg.cpp" />
+    <ClCompile Include="SecondDlg.cpp" />
+    <ClCompile Include="ShieldUnit.cpp" />
+    <ClCompile Include="ShieldUnit1.cpp" />
+    <ClCompile Include="ShieldUnit2.cpp" />
+    <ClCompile Include="ShieldUnit3.cpp" />
+    <ClCompile Include="ShieldUnit4.cpp" />
+    <ClCompile Include="ShieldUnit5.cpp" />
+    <ClCompile Include="ShieldUnit6.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StructObject.cpp" />
+    <ClCompile Include="ThirdDlg.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="VictoryDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FinalProject_windowsProgramming.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="FinalProject_windowsProgramming.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

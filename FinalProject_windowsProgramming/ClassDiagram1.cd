@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAttackUnit" Collapsed="true">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAhgBAAAAQASIAAIAAAAAAABAAAAEAAAACEAAABA=</HashCode>
+      <FileName>AttackUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackUnit1" Collapsed="true">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AttackUnit1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackUnit2" Collapsed="true">
+    <Position X="4.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AttackUnit2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackUnit3" Collapsed="true">
+    <Position X="5.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AttackUnit3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackUnit4" Collapsed="true">
+    <Position X="5.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AttackUnit4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackUnit5" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AttackUnit5.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackUnit6" Collapsed="true">
+    <Position X="3" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AttackUnit6.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBossAttackUnit1" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAIAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BossAttackUnit1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBullet" Collapsed="true">
+    <Position X="13.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFinalProject_windowsProgrammingDlg" Collapsed="true">
+    <Position X="19.25" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CFinalProject_windowsProgrammingDlg::__unnamed_enum_0016_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FinalProject_windowsProgrammingDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACEAAECAQAAAAAAABAAAAgBAAAAQEQAAAAEAMAQBAA=</HashCode>
+      <FileName>FinalProject_windowsProgrammingDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameOverDlg" Collapsed="true">
+    <Position X="21" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAIAAAAAABAAAAgAAIAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>GameOverDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSecondDlg" Collapsed="true">
+    <Position X="17.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAABAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>SecondDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShieldUnit" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAiAAAAhEAAAAAEAAAAAAABIAAACAAAgAAAQAAAA=</HashCode>
+      <FileName>ShieldUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShieldUnit1" Collapsed="true">
+    <Position X="10.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAYAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShieldUnit1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShieldUnit2" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAKAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShieldUnit2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShieldUnit3" Collapsed="true">
+    <Position X="8" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShieldUnit3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShieldUnit4" Collapsed="true">
+    <Position X="8" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIgAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShieldUnit4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShieldUnit5" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShieldUnit5.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShieldUnit6" Collapsed="true">
+    <Position X="10.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAIAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShieldUnit6.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStructObject" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAIAAAAAAAABAAEAAAAAAAAQAgAAAAQGAAIAA=</HashCode>
+      <FileName>StructObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThirdDlg" Collapsed="true">
+    <Position X="19.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCYECEwAAAAAXAOQLEAIiACABAAAUGEAgJAAgAwQAA=</HashCode>
+      <FileName>ThirdDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUser" Collapsed="true">
+    <Position X="21" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAEAAAAAAAAACgAAAAAEAAACQCAAAIAAEAACAA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVictoryDlg" Collapsed="true">
+    <Position X="17.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAIAAQAAABAAAAgAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>VictoryDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Sranking" Collapsed="true">
+    <Position X="19.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VictoryDlg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>
